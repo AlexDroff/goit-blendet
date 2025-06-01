@@ -207,8 +207,13 @@ button {
 
 /* #region product */
 .product {
-  padding-bottom: 50px;
   margin: 0 auto;
+  background-color: #fff;
+}
+
+.product-item {
+  border: none;
+  border-radius: 0%;
 }
 
 .product-con-icon.first {
@@ -261,15 +266,17 @@ button {
   text-align: center;
   color: #22343d;
   max-width: 539px;
-  margin: 0 auto 50px auto;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .product-list {
   display: flex;
   gap: 30px;
-  margin: 0 auto 50px auto;
 }
 .product-item {
   width: calc((100% - 90px) / 4);
+  margin-bottom: 50px;
 }
 .product-item-img {
 }
@@ -294,11 +301,10 @@ button {
   width: 175px;
   height: 53px;
   border-radius: 4px;
-  width: 175px;
-  height: 53px;
   background: #02897a;
   display: block;
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 /* #endregion product */
 
@@ -994,6 +1000,22 @@ button {
   margin: 0 12px;
 }
 
+.footer-social-list {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-social-item {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  fill: #edfffc;
+}
+.footer-social-icon {
+  stroke-width: 2px;
+  stroke: #02897a;
+}
+
 /* #endregion footer */
 
 /* #endregion ---index--- */
@@ -1201,31 +1223,34 @@ button {
 
 /* #region product */
 
-.product {
+.customer-product {
   max-width: 1400px;
   background: #f5f5f5;
   padding: 0 145px;
   padding-top: 24px;
   margin-bottom: 101px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.product-title {
+.customer-product-title {
   font-weight: 700;
   font-size: 34px;
   text-align: center;
+  margin-bottom: 50px;
 }
-.product-list {
+.customer-product-list {
   display: flex;
   gap: 30px;
   justify-content: center;
 }
-.product-item {
+.customer-product-item {
   border: 1px solid #dedede;
   padding: 32px 38px;
   border-radius: 10px;
   width: calc((100% - 60px) / 3);
   margin-bottom: 68px;
 }
-.product-icon-container {
+.customer-product-icon-container {
   border-radius: 19px;
   width: 50px;
   height: 50px;
@@ -1236,7 +1261,7 @@ button {
   margin-bottom: 32px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
-.product-subtitle {
+.customer-product-subtitle {
   font-weight: 700;
   font-size: 24px;
   line-height: 137%;
@@ -1244,7 +1269,7 @@ button {
   text-align: center;
   margin-bottom: 16px;
 }
-.product-text {
+.customer-product-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 169%;
