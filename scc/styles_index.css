@@ -50,7 +50,7 @@ button {
 .header .container {
   display: flex;
   align-items: center;
-  margin-bottom: 25px;
+  padding-bottom: 25px;
 }
 
 .navigation {
@@ -144,7 +144,7 @@ button {
   align-items: center;
   gap: 35px;
   margin: 0 auto;
-  margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 
 .hero-inform {
@@ -241,6 +241,7 @@ button {
 .product {
   margin: 0 auto;
   background-color: #fff;
+  padding-bottom: 50px;
 }
 
 .product-item {
@@ -337,7 +338,7 @@ button {
   align-items: center;
   margin: 0 auto;
   gap: 84px;
-  margin-bottom: 95px;
+  padding-bottom: 100px;
 }
 
 .manag-inform {
@@ -386,7 +387,7 @@ button {
   align-items: center;
   margin: 0 auto;
   gap: 84px;
-  margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 
 .custom-con-icon {
@@ -465,7 +466,7 @@ button {
   align-items: center;
   margin: 0 auto;
   gap: 84px;
-  margin-bottom: 150px;
+  padding-bottom: 150px;
 }
 
 .collab-inform {
@@ -513,8 +514,8 @@ button {
 
 .process {
   max-width: 916px;
-  margin-bottom: 100px;
-  margin: 0 auto 100px auto;
+  padding-bottom: 100px;
+  margin: 0 auto;
 }
 
 .process-title {
@@ -604,7 +605,7 @@ button {
 /* #region content */
 
 .content .container {
-  margin-bottom: 171px;
+  padding-bottom: 171px;
 }
 .content-title {
   font-weight: 700;
@@ -657,7 +658,7 @@ button {
 /* #region price */
 
 .price .container {
-  margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 
 .price-title {
@@ -831,7 +832,7 @@ button {
 /* #region client */
 
 .client .container {
-  margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 .client-title {
   font-weight: 700;
@@ -909,6 +910,9 @@ button {
 
 /* #region promo */
 
+.promo {
+  padding-bottom: 100px;
+}
 .promo .container {
   display: flex;
   border-radius: 32px;
@@ -916,7 +920,6 @@ button {
   max-width: 968px;
   max-height: 345px;
   background: #02897a;
-  margin-bottom: 100px;
   padding: 4px 31px 0px 51px;
 }
 
@@ -977,7 +980,7 @@ button {
 
 .footer .container {
   display: flex;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .footer-logo {
