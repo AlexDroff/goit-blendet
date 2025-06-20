@@ -156,7 +156,6 @@ button {
 /* #endregion header */
 
 /* #region hero */
-
 .hero .container {
   display: flex;
   justify-content: center;
@@ -165,11 +164,9 @@ button {
   margin: 0 auto;
   padding-bottom: 66px;
 }
-
 .hero-inform {
   max-width: 510px;
 }
-
 .hero-inform-title {
   font-weight: 700;
   font-size: 40px;
@@ -178,7 +175,6 @@ button {
   max-width: 380px;
   margin-bottom: 24px;
 }
-
 .hero-inform-text {
   font-weight: 400;
   font-size: 18px;
@@ -187,7 +183,6 @@ button {
   max-width: 535px;
   margin-bottom: 24px;
 }
-
 .hero-inform-input {
   border: 1px solid #eaeaea;
   border-radius: 100px;
@@ -196,11 +191,10 @@ button {
   padding-left: 27px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .form-cover {
   position: relative;
+  margin-bottom: 24px;
 }
-
 .hero-inform-btn {
   font-weight: 600;
   font-size: 16px;
@@ -220,12 +214,24 @@ button {
   align-items: center;
   justify-content: center;
 }
-
 .hero-inform-btn:hover,
 .hero-inform-btn:focus {
   background-color: #026e62;
 }
-
+.hero-inform-users {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.user-avatars {
+  display: flex;
+}
+.avatar {
+  border-radius: 50%;
+  border: 4px solid #fff;
+  object-fit: cover;
+  margin-left: -18px;
+}
 .hero-inform-users {
   display: flex;
   align-items: center;
@@ -235,18 +241,15 @@ button {
   font-weight: 400;
   font-size: 14px;
 }
-
 .accent {
   font-weight: 500;
   color: #02897a;
 }
-
 .hero-inform-input:hover,
 .hero-inform-input:focus-within {
   border-color: #02897a;
   outline: none;
 }
-
 /* #endregion hero */
 
 /* #region content */
@@ -635,6 +638,7 @@ button {
   color: #22343d;
   margin: 0 auto;
   text-align: center;
+  margin-bottom: 13px;
 }
 
 .footer-social-link:hover,
