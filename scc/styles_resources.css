@@ -326,6 +326,10 @@ button {
 .content-bootom-icon {
   fill: #2e3a59;
 }
+.content-bootom-icon:hover,
+.content-bootom-icon:focus {
+  fill: #02897a;
+}
 /* #endregion content */
 
 /* #region contact */
