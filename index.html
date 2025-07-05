@@ -16,8 +16,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./scc/styles_index.css" />
-
+    <link rel="stylesheet" href="./css/styles_index.css" />
     <title>Product</title>
   </head>
   <body>
@@ -419,12 +418,29 @@
           </p>
           <ul class="content-list">
             <li class="content-item">
-              <img
-                class="content-item-img"
-                src="./images/content-image-1.jpg"
-                alt="news 1"
-                width="350"
+              <picture>
+              <source
+                media="(min-width: 768px)"
+                srcset="
+                  ./images/content-desk-1.webp    1x,
+                  ./images/content-desk-1@2x.webp 2x
+                "
+                width="610"
               />
+              <source
+                media="(max-width: 767px)"
+                srcset="
+                  ./images/content-mob-1.webp    1x,
+                  ./images/content-mob-1@2x.webp 2x
+                "
+              />
+              <img
+                src="./images/content-desk-1.webp"
+                alt="group working people"
+                width="338"
+              />
+            </picture>
+          
               <p class="content-item-text">
                 By <span class="accent-item-text">Wahid Ari</span> | 03 March
                 2019
@@ -434,12 +450,28 @@
               </h3>
             </li>
             <li class="content-item">
-              <img
-                class="content-item-img"
-                src="./images/content-image-2.jpg"
-                alt="new 2"
-                width="350"
+              <picture>
+              <source
+                media="(min-width: 768px)"
+                srcset="
+                  ./images/content-desk-2.webp    1x,
+                  ./images/content-desk-2@2x.webp 2x
+                "
+                width="610"
               />
+              <source
+                media="(max-width: 767px)"
+                srcset="
+                  ./images/content-mob-2.webp    1x,
+                  ./images/content-mob-2@2x.webp 2x
+                "
+              />
+              <img
+                src="./images/content-desk-2.webp"
+                alt="group working people"
+                width="338"
+              />
+            </picture>
               <p class="content-item-text">
                 By <span class="accent-item-text">Wahid Ari</span> | 03 March
                 2019
@@ -449,12 +481,28 @@
               </h3>
             </li>
             <li class="content-item">
-              <img
-                class="content-item-img"
-                src="./images/content-image-3.jpg"
-                alt="new 3"
-                width="350"
+              <picture>
+              <source
+                media="(min-width: 768px)"
+                srcset="
+                  ./images/content-desk-3.webp    1x,
+                  ./images/content-desk-3@2x.webp 2x
+                "
+                width="610"
               />
+              <source
+                media="(max-width: 767px)"
+                srcset="
+                  ./images/content-mob-3.webp    1x,
+                  ./images/content-mob-3@2x.webp 2x
+                "
+              />
+              <img
+                src="./images/content-desk-3.webp"
+                alt="group working people"
+                width="338"
+              />
+            </picture>
               <p class="content-item-text">
                 By <span class="accent-item-text">Wahid Ari</span> | 03 March
                 2019
@@ -687,7 +735,7 @@
 
     <!-- #region footer -->
     <footer class="footer">
-      <div class="container">
+      <div class="container footer-container">
         <div class="footer-nav">
           <a class="footer-logo" href="./index.html">
             <img src="./images/logo.png" alt="logo" width="40" />Product</a

@@ -16,30 +16,26 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./scc/styles_custom.css" />
-
+    <link rel="stylesheet" href="./css/styles_custom.css" />
     <title>customer</title>
   </head>
-
   <body>
     <!-- #region heder -->
     <header class="header">
       <div class="container">
+        <a class="header-logo" href="./index.html">
+          <img src="./images/logo.png" alt="logo" width="40" />Product</a
+        >
         <nav class="navigation">
-          <a class="header-logo" href="./index.html">
-            <img src="./images/logo.png" alt="logo" width="40" />Product</a
-          >
           <ul class="nav-list">
             <li class="nav-list-item">
-              <a class="nav-list-link" href="./index.html">Product</a>
+              <a class="nav-list-link current" href="./index.html">Product</a>
             </li>
             <li class="nav-list-item">
               <a class="nav-list-link" href="./pricing.html">Pricing</a>
             </li>
             <li class="nav-list-item">
-              <a class="nav-list-link current" href="./customer.html"
-                >Customers</a
-              >
+              <a class="nav-list-link" href="./customer.html">Customers</a>
             </li>
             <li class="nav-list-item">
               <a class="nav-list-link" href="./resources.html">Resources</a>
@@ -54,6 +50,11 @@
             <button class="nav-menu-btn-up" type="button">Sign Up</button>
           </li>
         </ul>
+        <button class="header-burger" type="button">
+          <svg class="header-burger-icon" width="28" height="31">
+            <use href="./images/icon.svg#icon-burger"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <!-- #endregion heder -->
@@ -91,7 +92,7 @@
                   class="client-img"
                   src="./images/customer/Microsoft.png"
                   alt="logo Microsoft"
-                  width="213"
+                  width="164"
                 />
               </a>
             </li>
@@ -156,60 +157,63 @@
 
       <!-- #region work -->
       <section class="work">
-        <h2 class="work-title">How Product Work?</h2>
-        <ul class="work-list">
-          <li class="work-item">
-            <img
-              class="work-img"
-              src="./images/customer/product-work-1.png"
-              alt="produkt work 1"
-              width="500"
-            />
-            <div class="work-container">
-              <p class="work-text-accent">STEP 1</p>
-              <h3 class="work-subtitle">Apply for a product</h3>
-              <p class="work-text">
-                Completing our easy step-by-step application form gives you
-                access to multiple business with multiple products. We analyse
-                your business through our proprietary credit analysis technology
-              </p>
-            </div>
-          </li>
-          <li class="work-item">
-            <img
-              class="work-img"
-              src="./images/customer/product-work-2.png"
-              alt="produkt work 1"
-              width="500"
-            />
-            <div class="work-container">
-              <p class="work-text-accent">STEP 2</p>
-              <h3 class="work-subtitle">Pay fully refundable</h3>
-              <p class="work-text">
-                Product will contactting you instantly to receive payment of the
-                Application Fee. if no offer of product is available, your fee
-                will be fully refunded.
-              </p>
-            </div>
-          </li>
-          <li class="work-item">
-            <img
-              class="work-img"
-              src="./images/customer/product-work-3.png"
-              alt="produkt work 1"
-              width="500"
-            />
-            <div class="work-container">
-              <p class="work-text-accent">STEP 3</p>
-              <h3 class="work-subtitle">Completion</h3>
-              <p class="work-text">
-                Product will continue to liase between borrower and manager to
-                procees and complete a quick and efficient settlement
-              </p>
-            </div>
-          </li>
-        </ul>
-        <button class="work-btn" type="button">Get in touch with us</button>
+        <div class="container">
+          <h2 class="work-title">How Product Work?</h2>
+          <ul class="work-list">
+            <li class="work-item">
+              <img
+                class="work-img"
+                src="./images/customer/product-work-1.png"
+                alt="produkt work 1"
+                width="500"
+              />
+              <div class="work-container">
+                <p class="work-text-accent">STEP 1</p>
+                <h3 class="work-subtitle">Apply for a product</h3>
+                <p class="work-text">
+                  Completing our easy step-by-step application form gives you
+                  access to multiple business with multiple products. We analyse
+                  your business through our proprietary credit analysis
+                  technology
+                </p>
+              </div>
+            </li>
+            <li class="work-item">
+              <img
+                class="work-img"
+                src="./images/customer/product-work-2.png"
+                alt="produkt work 1"
+                width="500"
+              />
+              <div class="work-container">
+                <p class="work-text-accent">STEP 2</p>
+                <h3 class="work-subtitle">Pay fully refundable</h3>
+                <p class="work-text">
+                  Product will contactting you instantly to receive payment of
+                  the Application Fee. if no offer of product is available, your
+                  fee will be fully refunded.
+                </p>
+              </div>
+            </li>
+            <li class="work-item">
+              <img
+                class="work-img"
+                src="./images/customer/product-work-3.png"
+                alt="produkt work 1"
+                width="500"
+              />
+              <div class="work-container">
+                <p class="work-text-accent">STEP 3</p>
+                <h3 class="work-subtitle">Completion</h3>
+                <p class="work-text">
+                  Product will continue to liase between borrower and manager to
+                  procees and complete a quick and efficient settlement
+                </p>
+              </div>
+            </li>
+          </ul>
+          <button class="work-btn" type="button">Get in touch with us</button>
+        </div>
       </section>
       <!-- #endregion work -->
 
@@ -221,7 +225,7 @@
         <ul class="customer-join-list">
           <li class="customer-join-item">
             <div class="customer-join-icon-container">
-              <img src="./images/Activity.svg" alt="icon" />
+              <img src="./images/customer/Activity.svg" alt="icon" />
             </div>
             <h3 class="customer-join-subtitle">Business</h3>
             <ul class="customer-join-sublist">
@@ -243,7 +247,7 @@
           </li>
           <li class="customer-join-item">
             <div class="customer-join-icon-container">
-              <img src="./images/Chart.svg" alt="icon" />
+              <img src="./images/customer/Chart.svg" alt="icon" />
             </div>
             <h3 class="customer-join-subtitle">Enterprise</h3>
             <ul class="customer-join-sublist">
@@ -288,7 +292,7 @@
 
     <!-- #region footer -->
     <footer class="footer">
-      <div class="container">
+      <div class="container footer-container">
         <div class="footer-nav">
           <a class="footer-logo" href="./index.html">
             <img src="./images/logo.png" alt="logo" width="40" />Product</a
@@ -324,7 +328,9 @@
           <li class="footer-item">
             <a class="footer-link" href="">About Us</a>
           </li>
-          <li class="footer-item"><a class="footer-link" href="">Blog</a></li>
+          <li class="footer-item">
+            <a class="footer-link" href="">Blog</a>
+          </li>
           <li class="footer-item">
             <a class="footer-link" href="">Contact</a>
           </li>
