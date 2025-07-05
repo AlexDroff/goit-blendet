@@ -205,12 +205,7 @@ img {
   border-radius: 2px;
   fill: #02897a;
 }
-.watch {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 9px;
-}
+
 .hero-btn {
   font-weight: 700;
   font-size: 16px;
